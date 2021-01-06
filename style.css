@@ -3,3 +3,246 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nav-bar{
+    width: 20%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;;
+    margin-top: 40px;
+    margin-left: 70%;
+}
+.nav-bar a{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.top{
+    width: 80%;
+    height: 50vh;
+    margin: 50px 0 50px 14%;
+}
+.box1{
+    float: left;
+    padding-top: 50px;
+}
+.box2{
+    float: right;
+}
+.half-width{
+    width: 45%;
+}
+.half-width h1{
+    font-family: 'Bebas Neue';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 80px;
+    color: #363958;
+    padding-bottom: 20px;
+}
+.half-width p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #3E3E3E;
+    padding-bottom: 35px;
+}
+.half-width a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bolder;
+    background-image: linear-gradient(45deg,#F56260,#FB7462);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.half-width img{
+    width: 80%;
+}
+.top .my-name{
+    color: #FF8367;
+}
+.body{
+    width: 80%;
+    height: 55vh;
+    margin: 50px 0 50px 13%;
+}
+.body img{
+    width: 100%;
+}
+.body a img{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+.body h2{
+    font-family: 'Bebas Neue';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 60px;
+    color: #363958;
+    padding-bottom: 20px;
+}
+.body .box2{
+    padding-top:150px ;
+}
+.skill{
+    width: 100%;
+    height: 850px;
+    margin-top: 100px;
+    background-color: #fffefe;
+}
+.skill h2{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+    color: #a028e6;
+    padding-top: 150px;
+}
+.inner-skill{
+    width: 1300px;
+    height: 750px;
+    margin:100px auto;
+}
+.inner-skill .boxs{
+    width: 370px;
+    height: 390px;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+    padding: 15px;
+    font-family: arial;
+    box-shadow: 5px 5px 50px rgb(230, 228, 228);
+}
+.inner-skill .second{
+    margin: 0 95px 0 95px;
+}
+.inner-skill .boxs img{
+    width: 100%;
+    height: 215px;
+}
+.inner-skill .boxs h3{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 0;
+    color: #A44BFF;
+    text-transform: uppercase;
+}
+.inner-skill .boxs p{
+    color: dimgray;
+    line-height: 25px;
+}
+.project{
+    width: 100%;
+    height: 820px;
+    margin-top:;
+    background: #F8F9FC;
+}
+.project h2{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+    color: #F46060;
+    padding-top: 150px;
+}
+.project-color{
+    color: #363958;
+} 
+.inner-project{
+    width: 1170px;
+    height: 374px;
+    margin:100px auto;
+}
+.inner-project .boxs{
+    width: 370px;
+    height: 374px;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+    padding: 15px;
+    font-family: arial;
+    box-shadow: 5px 5px 10px rgb(230, 228, 228);
+}
+.inner-project .middle{
+    margin: 0 30px 0 30px;
+}
+.inner-project .boxs img{
+    width: 100%;
+    height: 215px;
+}
+.inner-project .boxs h3{
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.inner-project .boxs p{
+    color: dimgray;
+    line-height: 25px;
+}
+.inquiry-bg{
+    width: 950px;
+    height: 230px;
+    background-image: url("images/footer-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px auto;
+    border-radius: 50px;
+}
+.inquiry-bg h1{
+    font-family: 'Bebas Neue';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+    float: left;
+}
+.inquiry-bg a{
+    background-color: #F86A61;
+    font-family: roboto;
+    font-weight: 900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 13px;
+}
+.inquiry-title{
+    width: 80%;
+    height: 70px;
+    margin:0 auto;
+    padding-top: 80px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.footer h3{
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    font-weight: 200;
+    font-style: normal;
+    color: #696871;
+}
+.footer h2{
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bolder;
+    color: #363958;
+    padding: 15px 0;
+}
+.footer a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
