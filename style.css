@@ -6,7 +6,7 @@
 .nav-bar{
     width: 20%;
     height: 40px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     margin-top: 40px;
     margin-left: 70%;
 }
@@ -92,57 +92,10 @@
 .body .box2{
     padding-top:150px ;
 }
-.skill{
-    width: 100%;
-    height: 850px;
-    margin-top: 100px;
-    background-color: #fffefe;
-}
-.skill h2{
-    font-family: 'Bebas Neue';
-    font-size: 60px;
-    font-weight: 200;
-    text-align: center;
-    color: #a028e6;
-    padding-top: 150px;
-}
-.inner-skill{
-    width: 1300px;
-    height: 750px;
-    margin:100px auto;
-}
-.inner-skill .boxs{
-    width: 370px;
-    height: 390px;
-    border-radius: 20px;
-    background-color: white;
-    float: left;
-    padding: 15px;
-    font-family: arial;
-    box-shadow: 5px 5px 50px rgb(230, 228, 228);
-}
-.inner-skill .second{
-    margin: 0 95px 0 95px;
-}
-.inner-skill .boxs img{
-    width: 100%;
-    height: 215px;
-}
-.inner-skill .boxs h3{
-    font-weight: bolder;
-    font-size: 20px;
-    padding: 20px 0;
-    color: #A44BFF;
-    text-transform: uppercase;
-}
-.inner-skill .boxs p{
-    color: dimgray;
-    line-height: 25px;
-}
 .project{
     width: 100%;
     height: 820px;
-    margin-top:;
+    margin-top: 150px;
     background: #F8F9FC;
 }
 .project h2{
@@ -245,4 +198,51 @@
     width: 40px;
     height: 40px;
     margin-right: 10px;
+}
+.skill{
+    width: 100%;
+    height: 800px;
+    margin-top: 0px;
+    background-color: #F8F9FC;
+}
+.skill h2{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+    color: #a028e6;
+    padding-top: 100px;
+}
+.inner-skill{
+    width: 1300px;
+    height: 450px;
+    margin:100px auto;
+}
+.inner-skill .boxs{
+    width: 370px;
+    height: 390px;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+    padding: 15px;
+    font-family: arial;
+    box-shadow: 5px 5px 50px rgb(230, 228, 228);
+}
+.inner-skill .second{
+    margin: 0 95px 0 95px;
+}
+.inner-skill .boxs img{
+    width: 100%;
+    height: 215px;
+}
+.inner-skill .boxs h3{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 0;
+    color: #A44BFF;
+    text-transform: uppercase;
+}
+.inner-skill .boxs p{
+    color: dimgray;
+    line-height: 25px;
 }
